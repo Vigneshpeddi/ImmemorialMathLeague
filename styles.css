@@ -1,0 +1,58 @@
+.Logo {
+  text-align: center;
+  background-color: #301934;
+  height: 100px;
+  font-family: Calibri;
+}
+
+.logoHeader {
+  display: inline;
+  color: #FFD700;
+  vertical-align: middle;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #301934;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FFD700;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Calibri;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333;
+  color: #FFD700;
+}
+
+body {
+  background-image: url('hb.jpg');
+}
+
+.Name {
+  position: fixed;
+  top: 43%;
+  left: 15%;
+  color: white;
+  font-family: calibri;
+  font-size: 40px;
+}
+
+html {
+  overflow: scroll;
+}
